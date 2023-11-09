@@ -97,7 +97,7 @@ const UserTable = () => {
         <tbody>
           {!showTable && users.length === 0 && (
             <tr className='data'>
-              <td colSpan="4">No data found</td>
+              <td colSpan="4">No data found to display.</td>
             </tr>
           )}
           {showTable && users.map(user => (
