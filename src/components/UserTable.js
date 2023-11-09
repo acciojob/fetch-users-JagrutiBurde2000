@@ -113,7 +113,7 @@ const UserTable = () => {
       </table>
         </div>
      
-      {!showTable && users.length > 0 && <p>No data found to display.</p>}
+      {/* {!showTable && users.length > 0 && <p>No data found to display.</p>} */}
       
     </div>
   );
