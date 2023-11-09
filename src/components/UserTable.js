@@ -103,7 +103,7 @@ const UserTable = () => {
           {showTable && users.map(user => (
             <tr key={user.id} className='userDetails'>
             
-              <td>{user.first_name} </td>
+              <td>{user.first_name}</td>
               <td>{user.last_name}</td>
               <td>{user.email}</td>
               <td><img src={user.avatar} alt="avatar" width="50" /></td>
