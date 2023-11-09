@@ -1,0 +1,51 @@
+.Heading{
+    display: flex;
+    margin: auto;
+    width:80vw;
+   
+    justify-content: space-between;
+    align-items:center;
+ 
+}
+  
+
+.head{
+    background-color:rgb(42,49,53);
+    color: white;
+    display: flex;
+    margin-left:9vw;
+   align-items:start;
+   justify-content:space-between;
+   width: 80vw;
+   padding: 5px;
+
+   
+}
+
+.data{
+    display: flex;
+    margin-left:9vw;
+   align-items:start;
+   justify-content:center;
+   width: 80vw; 
+}
+.userDetails{
+    display: flex;
+    margin-left:9vw;
+   align-items:start;
+   justify-content:space-between;
+   width: 80vw
+}
+
+td{
+    display: flex;
+    align-items: start;
+}
+
+.btn{
+    color:white;
+    background-color:rgb(29,121,136) ;
+    padding: 5px;
+   border: none;
+   border-radius: 5px;
+}
